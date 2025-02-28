@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  httpd1:
+    image: httpd:latest
+    container_name: httpd_container
+    ports:
+    - "7894:80"
+    volumes:
+    - qwe:/data
+volumes:
+  qwe:

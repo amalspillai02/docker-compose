@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  nginx1:
+    image: nginx:latest
+    container_name: ng1
+    ports:
+    - "5678:80"
+    volumes:
+    - asd:/data
+volumes:
+  asd:
+
