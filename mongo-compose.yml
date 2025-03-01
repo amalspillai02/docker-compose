@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo1
+    env_file:
+    - .env
