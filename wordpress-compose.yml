@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  wordpress:
+    image: wordpress
+    container_name: wordpress1
+    ports:
+    - 8013:80
