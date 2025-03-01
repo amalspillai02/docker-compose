@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  drupal:
+    image: drupal
+    container_name: drupal1
+    ports:
+      -  8014:80
