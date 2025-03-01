@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  proxy:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: proxy1
+    ports:
+    - 8006:80
+    - 8007:81
+    - 8008:443
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt

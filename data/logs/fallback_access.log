@@ -1,0 +1,6 @@
+[01/Mar/2025:10:12:23 +0000] 200 - GET http 192.168.18.72 "/" [Client 192.168.18.43] [Length 568] [Gzip 1.86] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "-"
+[01/Mar/2025:10:12:29 +0000] 304 - GET http 192.168.18.72 "/" [Client 192.168.18.43] [Length 0] [Gzip -] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "-"
+[01/Mar/2025:10:12:38 +0000] 400 - GET http 192.168.18.72 "/" [Client 192.168.18.43] [Length 654] [Gzip -] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "-"
+[01/Mar/2025:10:12:38 +0000] 400 - GET http 192.168.18.72 "/favicon.ico" [Client 192.168.18.43] [Length 654] [Gzip -] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "http://192.168.18.72:8008/"
+[01/Mar/2025:10:12:47 +0000] 400 - GET http 192.168.18.72 "/" [Client 192.168.18.43] [Length 654] [Gzip -] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "-"
+[01/Mar/2025:10:12:47 +0000] 400 - GET http 192.168.18.72 "/favicon.ico" [Client 192.168.18.43] [Length 654] [Gzip -] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" "http://192.168.18.72:8008/"
