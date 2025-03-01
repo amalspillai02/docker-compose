@@ -2,5 +2,5 @@ version: "3.8"
 services:
   busybox:
     image: busybox:latest
-    container_name: busybox1
+    container_name: busybox1.0
     command: ["tail","-f","/dev/null"]
