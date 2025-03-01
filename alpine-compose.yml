@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  alpine:
+    image: alpine:latest
+    container_name: alpine1
+    command: ["sleep","infinity"]
