@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  almalinux:
+    image: almalinux:latest
+    container_name: alma1
+    command: sleep infinity
