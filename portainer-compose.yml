@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer1
+    ports:
+    - 8011:8000
+    - 8012:9000
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+    - ./portainer_data:/data
