@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  traefik:
+    image: traefik:v3.3
+    container_name: traefik1
+    command: --api.insecure=true --providers.docker
+    ports:
+    - 8009:80
+    - 8010:8080
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+
+  whoami:
+    image: traefik/whoami
+    container_name: simple-service
