@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  ubuntu2:
+    container_name: ubuntuapache
+    build:
+      dockerfile: ubuntuapache
+    ports:
+    - "7455:80"

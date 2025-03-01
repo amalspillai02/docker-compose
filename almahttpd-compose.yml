@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  almaht:
+    build:
+      dockerfile: almahttpd
+    container_name: almaht1
+    ports:
+    - "7124:80"

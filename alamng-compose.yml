@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  almang:
+    build:
+      dockerfile: almanginx
+    container_name: almang1
+    ports:
+    - "7123:80"

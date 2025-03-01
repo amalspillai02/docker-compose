@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  alpineng:
+    build:
+      dockerfile: alpineng
+    container_name: alpineng1
+    ports:
+    - "7125:80"

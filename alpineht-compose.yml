@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  alpineht:
+    build:
+      dockerfile: alpineht
+    container_name: alpineht1
+    ports:
+    - "7126:80"
