@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  jenkins:
+    image: jenkins/jenkins
+    container_name: jenkins1
+    ports:
+      - 8001:8080
+      - 8002:50000
