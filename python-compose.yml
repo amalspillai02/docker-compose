@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  python:
+    image: python:latest
+    container_name: python1
+    command: ["sleep","infinity"]
